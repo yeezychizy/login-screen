@@ -6,22 +6,27 @@
 </head>
 <body>
   <div class="container">
-    <h1>Register</h1>
+    <h1><strong style="color: red;">X-STREAMS</strong></h1>
     <form id="login-form">
+      
+      <input type="text" id="firstname" placeholder="First name" name="firstname" required>
 
-      <!-- <label for="username">Username:</label> -->
+      <input type="text" id="lastname" placeholder="Last name" name="lastname" required>
+
       <input type="text" id="username" placeholder="Username" name="username" required>
 
-      <!-- <label for="email">Email:</label> -->
       <input type="text" id="email" placeholder="Email" name="email" required>
 
-      <!-- <label for="password">Password:</label> -->
       <input type="password" id="password" placeholder="Password" name="password" required>
 
-      <!-- <label for="confirm password">Confirm Password:</label> -->
       <input type="password" id="confirm-password" placeholder="Confirm Password" name="password" required>
       
-      <input type="submit" value="Sign up">
+      <div class="inline">
+        <p><a href="#" class="previous round">&#8249;</a></p>
+        <p><a href="credit.html" class="next round">&#8250;</a></p>
+      </div>
+
+      <!-- <input type="submit" value="Sign up"> -->
     </form>
     <div id="error-message"></div>
   </div>
@@ -29,3 +34,17 @@
   <script src="app.js"></script>
 </body>
 </html>
+
+<!-- *First name: Chizu
+*Last name: Okwuosa
+*Email: Cokwuosa@icloud.com
+*Username: Yeezychizy
+*Password: password
+*Confirm password: password
+*Credit card info:
+-name on card
+-card number
+-expires at
+-cvv
+-Billing address 
+-Phone number -->
